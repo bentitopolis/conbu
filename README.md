@@ -14,7 +14,12 @@
 - [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
 
 <!-- Plugin description -->
-This Fancy IntelliJ Platform Plugin is going to be your implementation of the brilliant ideas that you have.
+Develop container files (aka Dockerfiles) for `podman` or `docker`.
+Helps with:
+- Make logical links between things like COPY and RUN ln
+- Allow for "breakpoints" and "debugging"
+- Manage sub-builds (Gradle, Maven, go build, gcc, etc) within the container build to speed the edit/debug/test cycle. 
+    - Cache needed elements for sub-builds so they run much faster after first run.
 
 This specific section is a source for the [plugin.xml](/src/main/resources/META-INF/plugin.xml) file which will be extracted by the [Gradle](/build.gradle.kts) during the build process.
 
