@@ -1,6 +1,13 @@
 <idea-plugin>
     <id>com.github.bentito.conbu</id>
     <name>conbu</name>
+    <description>
+        Work with container build files (Dockerfiles)with IDE expected features:
+        - Make logical links between things like COPY and RUN ln
+        - Allow for "breakpoints" and "debugging"
+        - Manage builds within the container build to speed the edit/debug/test cycle.
+        -- Cache needed elements for sub-builds so they run much faster after first run.
+    </description>
     <vendor>bentito</vendor>
 
     <!-- Product and plugin compatibility requirements -->
