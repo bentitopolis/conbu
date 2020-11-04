@@ -10,6 +10,7 @@
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="com.github.bentito.conbu.services.MyApplicationService"/>
         <projectService serviceImplementation="com.github.bentito.conbu.services.MyProjectService"/>
+        <framework.type implementation="com.github.bentito.conbu.framework.DemoFramework"/>
     </extensions>
 
     <applicationListeners>
